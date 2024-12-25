@@ -22,7 +22,7 @@ const Product = ({ product }) => {
 
     return (
         <div className='product'>
-            <div className="container product__container">
+            <div className='container product__container'>
                 <div className='product__card'>
                     <div className='product__block'>
                         <img
@@ -36,7 +36,7 @@ const Product = ({ product }) => {
                     <h3>{product.name}</h3>
                     <p>{product.price}</p>
                     <button onClick={handleAddToCart}>Add to Cart</button>
-                    <Link className='product__btn' to={'/product-details/' + product.id}>View Details</Link>
+                    <Link className='product__btn' to={'/product-details/' + product.id}>Details</Link>
                 </div>
             </div>
         </div>

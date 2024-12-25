@@ -1,12 +1,10 @@
 .product {
     padding: 50px 0;
-}
-
-.product__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px;
 }
+
 
 .product__card {
     width: 268px;
@@ -96,9 +94,6 @@
     cursor: pointer;
 }
 
-/* Product.css */
-
-/* Tugma ustiga bosilganda rangni qizil qilish */
 .product__image {
     cursor: pointer;
 }

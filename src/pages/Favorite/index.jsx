@@ -7,7 +7,6 @@ const Favorite = () => {
 
     return (
         <div className='favorite'>
-            <h2>Your Favorites</h2>
             <div className='favorite-list'>
                 {favorites.length > 0 ? (
                     favorites.map((product) => (
